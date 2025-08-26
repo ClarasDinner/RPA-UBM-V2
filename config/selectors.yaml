@@ -1,0 +1,13 @@
+login_page:
+  email_input: { by: "id", value: "email" }
+  password_input: { by: "id", value: "password" }
+  submit_button: { by: "xpath", value: "//button[@type='submit']" }
+
+navigation_page:
+  reportes_menu: { by: "xpath", value: "//span[text()='Reportes']" }
+
+reports_page:
+  fecha_inicio: { by: "id", value: "fecha_inicio" }
+  fecha_fin: { by: "id", value: "fecha_fin" }
+  buscar_boton: { by: "xpath", value: "//button[contains(text(),'Buscar')]" }
+  descargar_boton: { by: "xpath", value: "//button[contains(text(),'Descargar')]" }

@@ -1,0 +1,12 @@
+base_url: "https://universidad.bulkmatic.com.mx/login"
+
+credentials:
+  username: "usuario@empresa.com"
+  password: "secreto123"
+
+rango_fechas:
+  inicio: "2023-01-01"
+  fin: "2023-01-31"
+
+webdriver:
+  headless: false
